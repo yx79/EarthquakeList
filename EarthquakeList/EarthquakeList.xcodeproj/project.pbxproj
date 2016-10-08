@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8A918621DA6FD6700974F59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A918611DA6FD6700974F59 /* main.m */; };
+		B8A918651DA6FD6700974F59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A918641DA6FD6700974F59 /* AppDelegate.m */; };
+		B8A9186B1DA6FD6700974F59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8A918691DA6FD6700974F59 /* Main.storyboard */; };
+		B8A9186D1DA6FD6700974F59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8A9186C1DA6FD6700974F59 /* Assets.xcassets */; };
+		B8A918701DA6FD6700974F59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8A9186E1DA6FD6700974F59 /* LaunchScreen.storyboard */; };
+		B8A9187B1DA6FD6800974F59 /* EarthquakeListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A9187A1DA6FD6800974F59 /* EarthquakeListTests.m */; };
+		B8A918861DA6FD6800974F59 /* EarthquakeListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A918851DA6FD6800974F59 /* EarthquakeListUITests.m */; };
+		B8A918951DA6FF3100974F59 /* QuakeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A918941DA6FF3100974F59 /* QuakeTableViewController.m */; };
+		B8A918971DA701C700974F59 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = B8A918961DA701C700974F59 /* data.json */; };
+		B8A918BC1DA7742E00974F59 /* SVWebViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8A9189E1DA7742E00974F59 /* SVWebViewController.strings */; };
+		B8A918BD1DA7742E00974F59 /* SVWebViewControllerActivityChrome-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A918A81DA7742E00974F59 /* SVWebViewControllerActivityChrome-iPad.png */; };
+		B8A918BE1DA7742E00974F59 /* SVWebViewControllerActivityChrome-iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A918A91DA7742E00974F59 /* SVWebViewControllerActivityChrome-iPad@2x.png */; };
+		B8A918BF1DA7742E00974F59 /* SVWebViewControllerActivityChrome.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A918AB1DA7742E00974F59 /* SVWebViewControllerActivityChrome.m */; };
+		B8A918C01DA7742E00974F59 /* SVWebViewControllerActivityChrome@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A918AC1DA7742E00974F59 /* SVWebViewControllerActivityChrome@2x.png */; };
+		B8A918C11DA7742E00974F59 /* SVWebViewControllerActivitySafari-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A918AE1DA7742E00974F59 /* SVWebViewControllerActivitySafari-iPad.png */; };
+		B8A918C21DA7742E00974F59 /* SVWebViewControllerActivitySafari-iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A918AF1DA7742E00974F59 /* SVWebViewControllerActivitySafari-iPad@2x.png */; };
+		B8A918C31DA7742E00974F59 /* SVWebViewControllerActivitySafari.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A918B11DA7742E00974F59 /* SVWebViewControllerActivitySafari.m */; };
+		B8A918C41DA7742E00974F59 /* SVWebViewControllerActivitySafari@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A918B21DA7742E00974F59 /* SVWebViewControllerActivitySafari@2x.png */; };
+		B8A918C51DA7742E00974F59 /* SVWebViewControllerActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A918B41DA7742E00974F59 /* SVWebViewControllerActivity.m */; };
+		B8A918C61DA7742E00974F59 /* SVModalWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A918B61DA7742E00974F59 /* SVModalWebViewController.m */; };
+		B8A918C71DA7742E00974F59 /* SVWebViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B8A918B71DA7742E00974F59 /* SVWebViewController.bundle */; };
+		B8A918C81DA7742E00974F59 /* SVWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A918B91DA7742E00974F59 /* SVWebViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B8A918771DA6FD6800974F59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8A918551DA6FD6600974F59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8A9185C1DA6FD6600974F59;
+			remoteInfo = EarthquakeList;
+		};
+		B8A918821DA6FD6800974F59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8A918551DA6FD6600974F59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8A9185C1DA6FD6600974F59;
+			remoteInfo = EarthquakeList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B8A9185D1DA6FD6600974F59 /* EarthquakeList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarthquakeList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8A918611DA6FD6700974F59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8A918631DA6FD6700974F59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B8A918641DA6FD6700974F59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B8A9186A1DA6FD6700974F59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8A9186C1DA6FD6700974F59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8A9186F1DA6FD6700974F59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B8A918711DA6FD6800974F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8A918761DA6FD6800974F59 /* EarthquakeListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarthquakeListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8A9187A1DA6FD6800974F59 /* EarthquakeListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EarthquakeListTests.m; sourceTree = "<group>"; };
+		B8A9187C1DA6FD6800974F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8A918811DA6FD6800974F59 /* EarthquakeListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarthquakeListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8A918851DA6FD6800974F59 /* EarthquakeListUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EarthquakeListUITests.m; sourceTree = "<group>"; };
+		B8A918871DA6FD6800974F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8A918931DA6FF3100974F59 /* QuakeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuakeTableViewController.h; sourceTree = "<group>"; };
+		B8A918941DA6FF3100974F59 /* QuakeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuakeTableViewController.m; sourceTree = "<group>"; };
+		B8A918961DA701C700974F59 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		B8A9189F1DA7742E00974F59 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
+		B8A918A01DA7742E00974F59 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
+		B8A918A11DA7742E00974F59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
+		B8A918A21DA7742E00974F59 /* es-ES */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-ES"; path = "es-ES.lproj/SVWebViewController.strings"; sourceTree = "<group>"; };
+		B8A918A31DA7742E00974F59 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
+		B8A918A41DA7742E00974F59 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
+		B8A918A51DA7742E00974F59 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
+		B8A918A81DA7742E00974F59 /* SVWebViewControllerActivityChrome-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivityChrome-iPad.png"; sourceTree = "<group>"; };
+		B8A918A91DA7742E00974F59 /* SVWebViewControllerActivityChrome-iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivityChrome-iPad@2x.png"; sourceTree = "<group>"; };
+		B8A918AA1DA7742E00974F59 /* SVWebViewControllerActivityChrome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVWebViewControllerActivityChrome.h; sourceTree = "<group>"; };
+		B8A918AB1DA7742E00974F59 /* SVWebViewControllerActivityChrome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVWebViewControllerActivityChrome.m; sourceTree = "<group>"; };
+		B8A918AC1DA7742E00974F59 /* SVWebViewControllerActivityChrome@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivityChrome@2x.png"; sourceTree = "<group>"; };
+		B8A918AE1DA7742E00974F59 /* SVWebViewControllerActivitySafari-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivitySafari-iPad.png"; sourceTree = "<group>"; };
+		B8A918AF1DA7742E00974F59 /* SVWebViewControllerActivitySafari-iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivitySafari-iPad@2x.png"; sourceTree = "<group>"; };
+		B8A918B01DA7742E00974F59 /* SVWebViewControllerActivitySafari.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVWebViewControllerActivitySafari.h; sourceTree = "<group>"; };
+		B8A918B11DA7742E00974F59 /* SVWebViewControllerActivitySafari.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVWebViewControllerActivitySafari.m; sourceTree = "<group>"; };
+		B8A918B21DA7742E00974F59 /* SVWebViewControllerActivitySafari@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivitySafari@2x.png"; sourceTree = "<group>"; };
+		B8A918B31DA7742E00974F59 /* SVWebViewControllerActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVWebViewControllerActivity.h; sourceTree = "<group>"; };
+		B8A918B41DA7742E00974F59 /* SVWebViewControllerActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVWebViewControllerActivity.m; sourceTree = "<group>"; };
+		B8A918B51DA7742E00974F59 /* SVModalWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVModalWebViewController.h; sourceTree = "<group>"; };
+		B8A918B61DA7742E00974F59 /* SVModalWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVModalWebViewController.m; sourceTree = "<group>"; };
+		B8A918B71DA7742E00974F59 /* SVWebViewController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVWebViewController.bundle; sourceTree = "<group>"; };
+		B8A918B81DA7742E00974F59 /* SVWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVWebViewController.h; sourceTree = "<group>"; };
+		B8A918B91DA7742E00974F59 /* SVWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVWebViewController.m; sourceTree = "<group>"; };
+		B8A918BA1DA7742E00974F59 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/SVWebViewController.strings"; sourceTree = "<group>"; };
+		B8A918BB1DA7742E00974F59 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/SVWebViewController.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8A9185A1DA6FD6600974F59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8A918731DA6FD6800974F59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8A9187E1DA6FD6800974F59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8A918541DA6FD6600974F59 = {
+			isa = PBXGroup;
+			children = (
+				B8A9185F1DA6FD6700974F59 /* EarthquakeList */,
+				B8A918791DA6FD6800974F59 /* EarthquakeListTests */,
+				B8A918841DA6FD6800974F59 /* EarthquakeListUITests */,
+				B8A9185E1DA6FD6600974F59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8A9185E1DA6FD6600974F59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8A9185D1DA6FD6600974F59 /* EarthquakeList.app */,
+				B8A918761DA6FD6800974F59 /* EarthquakeListTests.xctest */,
+				B8A918811DA6FD6800974F59 /* EarthquakeListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8A9185F1DA6FD6700974F59 /* EarthquakeList */ = {
+			isa = PBXGroup;
+			children = (
+				B8A9189D1DA7742E00974F59 /* SVWebViewController */,
+				B8A918961DA701C700974F59 /* data.json */,
+				B8A918631DA6FD6700974F59 /* AppDelegate.h */,
+				B8A918641DA6FD6700974F59 /* AppDelegate.m */,
+				B8A918691DA6FD6700974F59 /* Main.storyboard */,
+				B8A9186C1DA6FD6700974F59 /* Assets.xcassets */,
+				B8A9186E1DA6FD6700974F59 /* LaunchScreen.storyboard */,
+				B8A918711DA6FD6800974F59 /* Info.plist */,
+				B8A918601DA6FD6700974F59 /* Supporting Files */,
+				B8A918931DA6FF3100974F59 /* QuakeTableViewController.h */,
+				B8A918941DA6FF3100974F59 /* QuakeTableViewController.m */,
+			);
+			path = EarthquakeList;
+			sourceTree = "<group>";
+		};
+		B8A918601DA6FD6700974F59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8A918611DA6FD6700974F59 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B8A918791DA6FD6800974F59 /* EarthquakeListTests */ = {
+			isa = PBXGroup;
+			children = (
+				B8A9187A1DA6FD6800974F59 /* EarthquakeListTests.m */,
+				B8A9187C1DA6FD6800974F59 /* Info.plist */,
+			);
+			path = EarthquakeListTests;
+			sourceTree = "<group>";
+		};
+		B8A918841DA6FD6800974F59 /* EarthquakeListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B8A918851DA6FD6800974F59 /* EarthquakeListUITests.m */,
+				B8A918871DA6FD6800974F59 /* Info.plist */,
+			);
+			path = EarthquakeListUITests;
+			sourceTree = "<group>";
+		};
+		B8A9189D1DA7742E00974F59 /* SVWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B8A9189E1DA7742E00974F59 /* SVWebViewController.strings */,
+				B8A918A61DA7742E00974F59 /* UIActivities */,
+				B8A918B51DA7742E00974F59 /* SVModalWebViewController.h */,
+				B8A918B61DA7742E00974F59 /* SVModalWebViewController.m */,
+				B8A918B71DA7742E00974F59 /* SVWebViewController.bundle */,
+				B8A918B81DA7742E00974F59 /* SVWebViewController.h */,
+				B8A918B91DA7742E00974F59 /* SVWebViewController.m */,
+			);
+			name = SVWebViewController;
+			path = ../SVWebViewController;
+			sourceTree = "<group>";
+		};
+		B8A918A61DA7742E00974F59 /* UIActivities */ = {
+			isa = PBXGroup;
+			children = (
+				B8A918A71DA7742E00974F59 /* Chrome */,
+				B8A918AD1DA7742E00974F59 /* Safari */,
+				B8A918B31DA7742E00974F59 /* SVWebViewControllerActivity.h */,
+				B8A918B41DA7742E00974F59 /* SVWebViewControllerActivity.m */,
+			);
+			path = UIActivities;
+			sourceTree = "<group>";
+		};
+		B8A918A71DA7742E00974F59 /* Chrome */ = {
+			isa = PBXGroup;
+			children = (
+				B8A918A81DA7742E00974F59 /* SVWebViewControllerActivityChrome-iPad.png */,
+				B8A918A91DA7742E00974F59 /* SVWebViewControllerActivityChrome-iPad@2x.png */,
+				B8A918AA1DA7742E00974F59 /* SVWebViewControllerActivityChrome.h */,
+				B8A918AB1DA7742E00974F59 /* SVWebViewControllerActivityChrome.m */,
+				B8A918AC1DA7742E00974F59 /* SVWebViewControllerActivityChrome@2x.png */,
+			);
+			path = Chrome;
+			sourceTree = "<group>";
+		};
+		B8A918AD1DA7742E00974F59 /* Safari */ = {
+			isa = PBXGroup;
+			children = (
+				B8A918AE1DA7742E00974F59 /* SVWebViewControllerActivitySafari-iPad.png */,
+				B8A918AF1DA7742E00974F59 /* SVWebViewControllerActivitySafari-iPad@2x.png */,
+				B8A918B01DA7742E00974F59 /* SVWebViewControllerActivitySafari.h */,
+				B8A918B11DA7742E00974F59 /* SVWebViewControllerActivitySafari.m */,
+				B8A918B21DA7742E00974F59 /* SVWebViewControllerActivitySafari@2x.png */,
+			);
+			path = Safari;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8A9185C1DA6FD6600974F59 /* EarthquakeList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8A9188A1DA6FD6800974F59 /* Build configuration list for PBXNativeTarget "EarthquakeList" */;
+			buildPhases = (
+				B8A918591DA6FD6600974F59 /* Sources */,
+				B8A9185A1DA6FD6600974F59 /* Frameworks */,
+				B8A9185B1DA6FD6600974F59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EarthquakeList;
+			productName = EarthquakeList;
+			productReference = B8A9185D1DA6FD6600974F59 /* EarthquakeList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8A918751DA6FD6800974F59 /* EarthquakeListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8A9188D1DA6FD6800974F59 /* Build configuration list for PBXNativeTarget "EarthquakeListTests" */;
+			buildPhases = (
+				B8A918721DA6FD6800974F59 /* Sources */,
+				B8A918731DA6FD6800974F59 /* Frameworks */,
+				B8A918741DA6FD6800974F59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8A918781DA6FD6800974F59 /* PBXTargetDependency */,
+			);
+			name = EarthquakeListTests;
+			productName = EarthquakeListTests;
+			productReference = B8A918761DA6FD6800974F59 /* EarthquakeListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B8A918801DA6FD6800974F59 /* EarthquakeListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8A918901DA6FD6800974F59 /* Build configuration list for PBXNativeTarget "EarthquakeListUITests" */;
+			buildPhases = (
+				B8A9187D1DA6FD6800974F59 /* Sources */,
+				B8A9187E1DA6FD6800974F59 /* Frameworks */,
+				B8A9187F1DA6FD6800974F59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8A918831DA6FD6800974F59 /* PBXTargetDependency */,
+			);
+			name = EarthquakeListUITests;
+			productName = EarthquakeListUITests;
+			productReference = B8A918811DA6FD6800974F59 /* EarthquakeListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8A918551DA6FD6600974F59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Yuanjie Xie";
+				TargetAttributes = {
+					B8A9185C1DA6FD6600974F59 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5R3X365C82;
+						ProvisioningStyle = Automatic;
+					};
+					B8A918751DA6FD6800974F59 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5R3X365C82;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B8A9185C1DA6FD6600974F59;
+					};
+					B8A918801DA6FD6800974F59 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5R3X365C82;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B8A9185C1DA6FD6600974F59;
+					};
+				};
+			};
+			buildConfigurationList = B8A918581DA6FD6600974F59 /* Build configuration list for PBXProject "EarthquakeList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				da,
+				de,
+				"es-ES",
+				es,
+				fr,
+				ja,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = B8A918541DA6FD6600974F59;
+			productRefGroup = B8A9185E1DA6FD6600974F59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8A9185C1DA6FD6600974F59 /* EarthquakeList */,
+				B8A918751DA6FD6800974F59 /* EarthquakeListTests */,
+				B8A918801DA6FD6800974F59 /* EarthquakeListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8A9185B1DA6FD6600974F59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8A918701DA6FD6700974F59 /* LaunchScreen.storyboard in Resources */,
+				B8A9186D1DA6FD6700974F59 /* Assets.xcassets in Resources */,
+				B8A918BC1DA7742E00974F59 /* SVWebViewController.strings in Resources */,
+				B8A918BD1DA7742E00974F59 /* SVWebViewControllerActivityChrome-iPad.png in Resources */,
+				B8A918C21DA7742E00974F59 /* SVWebViewControllerActivitySafari-iPad@2x.png in Resources */,
+				B8A918C41DA7742E00974F59 /* SVWebViewControllerActivitySafari@2x.png in Resources */,
+				B8A918BE1DA7742E00974F59 /* SVWebViewControllerActivityChrome-iPad@2x.png in Resources */,
+				B8A9186B1DA6FD6700974F59 /* Main.storyboard in Resources */,
+				B8A918C71DA7742E00974F59 /* SVWebViewController.bundle in Resources */,
+				B8A918C01DA7742E00974F59 /* SVWebViewControllerActivityChrome@2x.png in Resources */,
+				B8A918971DA701C700974F59 /* data.json in Resources */,
+				B8A918C11DA7742E00974F59 /* SVWebViewControllerActivitySafari-iPad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8A918741DA6FD6800974F59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8A9187F1DA6FD6800974F59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8A918591DA6FD6600974F59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8A918C31DA7742E00974F59 /* SVWebViewControllerActivitySafari.m in Sources */,
+				B8A918651DA6FD6700974F59 /* AppDelegate.m in Sources */,
+				B8A918951DA6FF3100974F59 /* QuakeTableViewController.m in Sources */,
+				B8A918C61DA7742E00974F59 /* SVModalWebViewController.m in Sources */,
+				B8A918621DA6FD6700974F59 /* main.m in Sources */,
+				B8A918BF1DA7742E00974F59 /* SVWebViewControllerActivityChrome.m in Sources */,
+				B8A918C81DA7742E00974F59 /* SVWebViewController.m in Sources */,
+				B8A918C51DA7742E00974F59 /* SVWebViewControllerActivity.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8A918721DA6FD6800974F59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8A9187B1DA6FD6800974F59 /* EarthquakeListTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8A9187D1DA6FD6800974F59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8A918861DA6FD6800974F59 /* EarthquakeListUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8A918781DA6FD6800974F59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8A9185C1DA6FD6600974F59 /* EarthquakeList */;
+			targetProxy = B8A918771DA6FD6800974F59 /* PBXContainerItemProxy */;
+		};
+		B8A918831DA6FD6800974F59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8A9185C1DA6FD6600974F59 /* EarthquakeList */;
+			targetProxy = B8A918821DA6FD6800974F59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B8A918691DA6FD6700974F59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8A9186A1DA6FD6700974F59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B8A9186E1DA6FD6700974F59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8A9186F1DA6FD6700974F59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B8A9189E1DA7742E00974F59 /* SVWebViewController.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8A9189F1DA7742E00974F59 /* da */,
+				B8A918A01DA7742E00974F59 /* de */,
+				B8A918A11DA7742E00974F59 /* en */,
+				B8A918A21DA7742E00974F59 /* es-ES */,
+				B8A918A31DA7742E00974F59 /* es */,
+				B8A918A41DA7742E00974F59 /* fr */,
+				B8A918A51DA7742E00974F59 /* ja */,
+				B8A918BA1DA7742E00974F59 /* zh-Hans */,
+				B8A918BB1DA7742E00974F59 /* zh-Hant */,
+			);
+			name = SVWebViewController.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8A918881DA6FD6800974F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B8A918891DA6FD6800974F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8A9188B1DA6FD6800974F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5R3X365C82;
+				INFOPLIST_FILE = EarthquakeList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanjiexie.spring2016.EarthquakeList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B8A9188C1DA6FD6800974F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5R3X365C82;
+				INFOPLIST_FILE = EarthquakeList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanjiexie.spring2016.EarthquakeList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B8A9188E1DA6FD6800974F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5R3X365C82;
+				INFOPLIST_FILE = EarthquakeListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanjiexie.spring2016.EarthquakeListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EarthquakeList.app/EarthquakeList";
+			};
+			name = Debug;
+		};
+		B8A9188F1DA6FD6800974F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5R3X365C82;
+				INFOPLIST_FILE = EarthquakeListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanjiexie.spring2016.EarthquakeListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EarthquakeList.app/EarthquakeList";
+			};
+			name = Release;
+		};
+		B8A918911DA6FD6800974F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5R3X365C82;
+				INFOPLIST_FILE = EarthquakeListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanjiexie.spring2016.EarthquakeListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EarthquakeList;
+			};
+			name = Debug;
+		};
+		B8A918921DA6FD6800974F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5R3X365C82;
+				INFOPLIST_FILE = EarthquakeListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanjiexie.spring2016.EarthquakeListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EarthquakeList;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8A918581DA6FD6600974F59 /* Build configuration list for PBXProject "EarthquakeList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8A918881DA6FD6800974F59 /* Debug */,
+				B8A918891DA6FD6800974F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8A9188A1DA6FD6800974F59 /* Build configuration list for PBXNativeTarget "EarthquakeList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8A9188B1DA6FD6800974F59 /* Debug */,
+				B8A9188C1DA6FD6800974F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8A9188D1DA6FD6800974F59 /* Build configuration list for PBXNativeTarget "EarthquakeListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8A9188E1DA6FD6800974F59 /* Debug */,
+				B8A9188F1DA6FD6800974F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8A918901DA6FD6800974F59 /* Build configuration list for PBXNativeTarget "EarthquakeListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8A918911DA6FD6800974F59 /* Debug */,
+				B8A918921DA6FD6800974F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8A918551DA6FD6600974F59 /* Project object */;
+}
